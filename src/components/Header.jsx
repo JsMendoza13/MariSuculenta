@@ -13,11 +13,7 @@ const Header = () => {
       <nav className="flex justify-between items-center  w-[82%] mx-auto my-5">
         <div className="text-center mt-3">
           <Link to="/">
-            <img
-              className="md:w-32 xl:w-[100%] w-[40%]"
-              src={logo}
-              alt="logo"
-            />
+            <img className="img__logo" src={logo} alt="logo" />
           </Link>
         </div>
 
