@@ -1,9 +1,10 @@
 import React from "react";
-import img1 from "../assets/img1.jpg";
-import img2 from "../assets/img2.jpg";
-import img3 from "../assets/img3.jpg";
-import img4 from "../assets/img4.jpg";
-import img5 from "../assets/img5.jpg";
+import img1 from "../assets/img1.webp";
+import img2 from "../assets/img2.webp";
+import img3 from "../assets/img3.webp";
+import img4 from "../assets/img4.webp";
+import img5 from "../assets/img5.webp";
+import img6 from "../assets/img6.webp";
 
 const Product = () => {
   return (
@@ -109,6 +110,25 @@ const Product = () => {
             <div className="overlay">
               <h2>Pareja Suculenta </h2>
               <p>Cada uno viene con un mensaje positivo único</p>
+              <button
+                type="button"
+                class="bg-gradient-to-r   hover:from-amber-200
+                    hover:to-yellow-600
+                    border-2 border-secundary
+                    hover:border-none
+                    h-10 xl:w-40 w-full font-bold hover:text-white text-secundary rounded-xl m-2"
+              >
+                Comprar
+              </button>
+            </div>
+          </div>
+          <div className="seccionCard">
+            <img src={img6} alt="sucupink" className="imgCard object-cover" />
+            <div className="overlay">
+              <h2>Suculenta Pink </h2>
+              <p>
+                Colores de armonia, que atraen un calido ambiente para tu hogar.
+              </p>
               <button
                 type="button"
                 class="bg-gradient-to-r   hover:from-amber-200

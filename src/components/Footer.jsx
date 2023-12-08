@@ -1,5 +1,5 @@
 import React from "react";
-import logof from "../assets/ooterlg.png";
+import logof from "../assets/ooterlg.webp";
 import {
   RiInstagramFill,
   RiFacebookFill,
