@@ -8,7 +8,7 @@ const Proveedores = () => {
           Información proveedores.{" "}
         </h1>
         <br />
-        <p className="text-gray-400 text-center text-xl leading-[2rem] mb-4 mt-2">
+        <p className="text-gray-300 text-xl leading-[2rem] mb-4 mt-2 xl:mx-[15%] md:mx-[10%]">
           ¡Te gustaría formar parte de esta familia! Envíanos tus datos y
           productos que te interesa ofrecernos.
         </p>

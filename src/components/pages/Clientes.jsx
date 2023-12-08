@@ -8,7 +8,7 @@ const Clientes = () => {
           Clientes exclusivos{" "}
         </h1>
         <br />
-        <p className="text-center text-gray-400 text-xl leading-[2rem] mb-4 mt-6">
+        <p className=" text-gray-300 text-xl leading-[2rem] mb-4 mt-6 xl:mx-[18%] md:mx-[10%]">
           Déjanos tus datos en este formulario para que estés al pendiente de
           todas nuestras promociones y exclusividades.
         </p>

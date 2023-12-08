@@ -14,7 +14,7 @@ const Product = () => {
           <h1 className="text-transparent text-2xl xl:text-[32px] font-bold bg-clip-text bg-gradient-to-r from-primary to-emerald-600 ">
             Consigue tu dosis de apoyo emocional con Maria Suculentas
           </h1>
-          <p className="mt-5 xl:text-xl text-ml text-gray-400">
+          <p className="mt-5 xl:text-xl text-ml text-gray-300">
             Deje que nuestras suculentas hechas a mano y ricas en nutrientes
             ayuden a calmar su mente y alma.
           </p>

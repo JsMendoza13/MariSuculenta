@@ -2,13 +2,13 @@ import React from "react";
 
 const Productos = () => {
   return (
-    <div className="items-center justify-center m-2">
+    <div className="min-h-screen flex items-center justify-center m-2">
       <div className="md:gap-0 p-10 xl:ml-20 xl:mr-20">
         <h1 className="text-center text-2xl xl:text-3xl font-bold text-primary tracking-[3px] m-auto">
           Control y registro de productos.
         </h1>
         <br />
-        <p className="text-center text-gray-400 text-xl leading-[2rem] mb-4 mt-2 ">
+        <p className="text-gray-300 text-xl leading-[2rem] mb-4 mt-2 xl:w-[60%] md:mx-[20%] xl:mx-[20%]">
           Deje que nuestras suculentas hechas a mano y ricas en nutrientes
           ayuden a calmar su mente y alma. Tenemos una variedad de
           impresionantes suculentas para elegir.
@@ -25,7 +25,7 @@ const Productos = () => {
                   Nombre
                 </label>
                 <input
-                  className="appearance-none block  bg-gray-200 text-gray-700 border  border-secundary rounded py-2 md:px-14 px-2 mb-2 leading-tight focus:outline-none focus:bg-green-200"
+                  className="appearance-none block  bg-gray-200 text-gray-700 border  border-secundary rounded  py-2 md:px-14 px-2 mb-2 leading-tight focus:outline-none focus:bg-green-200"
                   type="text"
                   id="nombre"
                   name="nombre"
