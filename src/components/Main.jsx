@@ -15,7 +15,7 @@ const Main = () => {
         <div className="md:w-[82%] md:flex md:item-center">
           <div className="mt-6 md:col-span-5 flex items-center justify-center p-8 xl:p-14 ">
             <div className="flex flex-col gap-5">
-              <h1 className=" text-5xl xl:text-7xl font-bold xl:leading-[5.5rem] text-white">
+              <h1 className=" text-4xl xl:text-7xl font-bold xl:leading-[5.5rem] text-white">
                 Bienvenidos a Maria{" "}
                 <span className="text-primary tracking-[3px] ">Suculentas</span>
               </h1>

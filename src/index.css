@@ -27,7 +27,8 @@ a {
   text-decoration: none;
 }
 
-#img__logo {
+#img__logo,
+#img__logo__f {
   max-width: 200px;
 }
 
@@ -155,6 +156,11 @@ a.active {
     align-items: center;
   }
   @media screen and (max-width: 480px) {
+    #img__logo__f {
+      max-width: 85px;
+      height: 35px;
+    }
+
     .containerIn {
       padding: 5px;
     }
@@ -162,7 +168,7 @@ a.active {
     .contentCard {
       width: 286px;
     }
-    .seccionCard h2 {
+    .seccionCard h3 {
       margin: 0 0 5px;
     }
   }
