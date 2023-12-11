@@ -11,9 +11,9 @@ const Product = () => {
     <section className="containerIn">
       <div className="containerProducto ">
         <div className="titleCards">
-          <h1 className="text-transparent text-2xl xl:text-[32px] font-bold bg-clip-text bg-gradient-to-r from-primary to-emerald-600 ">
+          <h2 className="text-transparent text-2xl xl:text-[32px] font-bold bg-clip-text bg-gradient-to-r from-primary to-emerald-600 ">
             Consigue tu dosis de apoyo emocional con Maria Suculentas
-          </h1>
+          </h2>
           <p className="mt-5 xl:text-xl text-ml text-gray-300">
             Deje que nuestras suculentas hechas a mano y ricas en nutrientes
             ayuden a calmar su mente y alma.
@@ -24,7 +24,7 @@ const Product = () => {
           <div className="seccionCard">
             <img src={img1} alt="sucuone" className="imgCard object-cover" />
             <div className="overlay">
-              <h2>Suculenta Azul Marina</h2>
+              <h3>Suculenta Azul Marina</h3>
               <p>
                 fáciles de cuidar se cultivan con amor y brindan una presencia
                 edificante en su hogar.
@@ -45,7 +45,7 @@ const Product = () => {
           <div className="seccionCard">
             <img src={img2} alt="sucutwo" className="imgCard object-cover" />
             <div className="overlay">
-              <h2>Cariño Suculenta </h2>
+              <h3>Cariño Suculenta </h3>
               <p>
                 Está científicamente comprobado que nuestras suculentas reducen
                 el estrés y la ansiedad.
@@ -66,7 +66,7 @@ const Product = () => {
           <div className="seccionCard">
             <img src={img3} alt="sucutwo" className="imgCard object-cover" />
             <div className="overlay">
-              <h2>Suculenta PostDate </h2>
+              <h3>Suculenta PostDate </h3>
               <p>
                 Perfectas para iluminar cualquier habitación o para regalar a
                 tus seres queridos.
@@ -87,7 +87,7 @@ const Product = () => {
           <div className="seccionCard">
             <img src={img4} alt="sucutwo" className="imgCard object-cover" />
             <div className="overlay">
-              <h2>Jardin del eden </h2>
+              <h3>Jardin del eden </h3>
               <p>
                 Quiera alegrar su hogar, estas suculentas seguramente traerán
                 alegría a su vida.
@@ -108,7 +108,7 @@ const Product = () => {
           <div className="seccionCard">
             <img src={img5} alt="sucutwo" className="imgCard object-cover" />
             <div className="overlay">
-              <h2>Pareja Suculenta </h2>
+              <h3>Pareja Suculenta </h3>
               <p>Cada uno viene con un mensaje positivo único</p>
               <button
                 type="button"
@@ -125,7 +125,7 @@ const Product = () => {
           <div className="seccionCard">
             <img src={img6} alt="sucupink" className="imgCard object-cover" />
             <div className="overlay">
-              <h2>Suculenta Pink </h2>
+              <h3>Suculenta Pink </h3>
               <p>
                 Colores de armonia, que atraen un calido ambiente para tu hogar.
               </p>
