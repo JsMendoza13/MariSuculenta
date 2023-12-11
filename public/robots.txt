@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /Productos
-Disallow: /Clientes
-Disallow: /Proveedores
-Allow: /Home
+Disallow: /productos
+Disallow: /clientes
+Disallow: /proveedores
+Allow: /home
