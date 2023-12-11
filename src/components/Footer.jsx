@@ -17,16 +17,28 @@ const Footer = () => {
         {/* Iconos Social */}
 
         <nav className="flex item-center xl:gap-10 gap-2">
-          <a className="block rounded-full text-white p-4 bg-primary" href="#">
+          <a
+            className="block rounded-full text-white p-4 bg-primary"
+            href="https://www.instagram.com/"
+          >
             <RiInstagramFill />
           </a>
-          <a className="block rounded-full text-white p-4 bg-primary" href="#">
+          <a
+            className="block rounded-full text-white p-4 bg-primary"
+            href="https://www.facebook.com/"
+          >
             <RiFacebookFill />
           </a>
-          <a className="block rounded-full text-white p-4 bg-primary" href="#">
+          <a
+            className="block rounded-full text-white p-4 bg-primary"
+            href="https://twitter.com/"
+          >
             <RiTwitterFill />
           </a>
-          <a className="block rounded-full text-white p-4 bg-primary" href="#">
+          <a
+            className="block rounded-full text-white p-4 bg-primary"
+            href="https://www.youtube.com/"
+          >
             <RiYoutubeFill />
           </a>
         </nav>

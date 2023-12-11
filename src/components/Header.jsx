@@ -27,7 +27,7 @@ const Header = () => {
         >
           <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
             <Link className="hoverLink text-primary" to="/">
-              <a>Home</a>
+              Home
             </Link>
             <Link className="hoverLink text-primary" to="/productos">
               Productos

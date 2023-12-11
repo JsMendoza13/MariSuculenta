@@ -79,7 +79,7 @@ a {
 
 .seccionCard h3 {
   font-size: 1.4rem;
-  font-weight: 700;
+  font-weight: 500;
   margin: 20px 0 20px;
   text-align: center;
   color: #000;
@@ -120,9 +120,14 @@ a {
   opacity: 1;
 }
 
+.hoverLink:hover,
+.hoverLink.active {
+  color: #ffad33;
+}
+
 a:hover,
 a.active {
-  color: #b4fc84;
+  color: #111827;
 }
 
 @media screen and (max-width: 1400px) {

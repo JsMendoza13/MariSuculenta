@@ -40,7 +40,7 @@ const Main = () => {
           <div className="md:col-span-3 flex items-center justify-center relative ">
             <div>
               <img
-                className="object-cover xl:-mt-28 -mt-20 -ml-10  rotate-6  "
+                className="object-cover xl:-mt-38 -mt-20 -ml-10  rotate-6  xl:max-w-lg md:max-w-sm"
                 src={hero}
                 alt="hero"
               />
@@ -54,21 +54,25 @@ const Main = () => {
                   <img
                     src="https://img.freepik.com/foto-gratis/retrato-joven-sonriente-gafas_171337-4842.jpg"
                     className="w-12 h-12 object-cover rounded-full ring-2 ring-gray-400 bg-white"
+                    alt="joven-sonriente"
                   />
 
                   <img
                     src="https://img.freepik.com/foto-gratis/retrato-dedo-acusador-sonriente-mujer-atractiva_171337-6083.jpg"
                     className="w-12 h-12 object-cover rounded-full ring-2 ring-gray-400 -ml-4 bg-white"
+                    alt="mujer-atractiva"
                   />
 
                   <img
                     src="https://img.freepik.com/foto-gratis/retrato-hombre-confiado-sonriente-gafas-sol_171337-9745.jpg"
                     className="w-12 h-12 object-cover rounded-full ring-2 ring-gray-400 -ml-4 bg-white"
+                    alt="gafas-sol"
                   />
 
                   <img
                     src="https://img.freepik.com/foto-gratis/retrato-belleza-mujer-sensual-jengibre-cabello-largo-posando-ojos-cerrados_171337-916.jpg"
                     className="w-12 h-12 object-cover rounded-full ring-2 ring-gray-400 -ml-4 bg-white"
+                    alt="mujer-sensual"
                   />
                 </div>
 
