@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/logo2.webp";
 
 //Icons
-import { RiCloseLine, RiMenu3Fill, RiMenuLine } from "react-icons/ri";
+import { RiCloseLine, RiMenu3Fill } from "react-icons/ri";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -13,7 +13,7 @@ const Header = () => {
       <nav className="flex justify-between items-center  w-[82%] mx-auto my-5">
         <div className="text-center mt-3">
           <Link to="/">
-            <img className="img__logo" src={logo} alt="logo" />
+            <img id="img__logo" src={logo} alt="logo" />
           </Link>
         </div>
 
@@ -22,8 +22,8 @@ const Header = () => {
           className={`xl:ml-[50%] md:ml-[25%] fixed w-[100%] md:w-[20%] xl:w-full h-full ${
             showMenu ? "left-0" : "-left-full"
           }  
-top-[9%] md:static absolute flex-2 flex flex-col xl:flex-row 
-items-center justify-center gap-10 bg-secundary transition-all duration-500 z-50`}
+            top-[9%] md:static absolute flex-2 flex flex-col xl:flex-row 
+            items-center justify-center gap-10 bg-secundary transition-all duration-500 z-50`}
         >
           <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
             <Link className="hoverLink text-primary" to="/">

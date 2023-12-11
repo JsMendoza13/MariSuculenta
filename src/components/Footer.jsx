@@ -12,11 +12,7 @@ const Footer = () => {
     <footer className="bg-gray-900 xl:p-20 p-8">
       {/* Imagen logo footer */}
       <div className="flex item-center justify-between border-b pb-20 border-secundary ">
-        <img
-          className="imgFooter w-[34%] h-[25%] md:w-[23%] md:h-[13%] md:ml-10 ml-1 xl:-mb-20"
-          src={logof}
-          alt="footer"
-        />
+        <img id="img__logo" src={logof} alt="footer" />
 
         {/* Iconos Social */}
 
