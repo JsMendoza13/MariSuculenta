@@ -43,6 +43,8 @@ const Main = () => {
                 className="object-cover xl:-mt-38 -mt-20 -ml-10  rotate-6  xl:max-w-lg md:max-w-sm"
                 src={hero}
                 alt="hero"
+                loading="eager"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
 
               {/*  Contenedor blanco */}

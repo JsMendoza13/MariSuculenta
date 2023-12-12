@@ -121,13 +121,14 @@ a {
 }
 
 .hoverLink:hover,
-.hoverLink.active {
+.hoverLink:active {
   color: #ffad33;
 }
 
 a:hover,
 a.active {
   color: #111827;
+  transition: all 0.4s ease-in-out;
 }
 
 @media screen and (max-width: 1400px) {

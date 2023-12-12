@@ -25,19 +25,28 @@ const Header = () => {
             top-[9%] md:static absolute flex-2 flex flex-col xl:flex-row 
             items-center justify-center gap-10 bg-secundary transition-all duration-500 z-50`}
         >
-          <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
-            <Link className="hoverLink text-primary" to="/">
-              Home
-            </Link>
-            <Link className="hoverLink text-primary" to="/productos">
-              Productos
-            </Link>
-            <Link className="hoverLink text-primary" to="/clientes">
-              Clientes
-            </Link>
-            <Link className="hoverLink text-primary" to="/proveedores">
-              Proveedores
-            </Link>
+          <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8  ">
+            <li>
+              {" "}
+              <Link className="hoverLink text-primary" to="/">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link className="hoverLink text-primary" to="/productos">
+                Productos
+              </Link>
+            </li>
+            <li>
+              <Link className="hoverLink text-primary" to="/clientes">
+                Clientes
+              </Link>
+            </li>
+            <li>
+              <Link className="hoverLink text-primary" to="/proveedores">
+                Proveedores
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="flex items-center gap-6">
